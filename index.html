@@ -1,86 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Glass Website</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./style.css" />
-  </head>
-  <body>
-    <main>
-      <section class="glass">
-        <div class="dashboard">
-          <div class="user">
-            <img src="./images/avatar.png" alt="" />
-            <h3>Simo Edwin</h3>
-            <p>Pro Member</p>
-          </div>
-          <div class="links">
-            <div class="link">
-              <img src="./images/twitch.png" alt="" />
-              <h2>Streams</h2>
-            </div>
-            <div class="link">
-              <img src="./images/steam.png" alt="" />
-              <h2>Games</h2>
-            </div>
-            <div class="link">
-              <img src="./images/upcoming.png" alt="" />
-              <h2>New</h2>
-            </div>
-            <div class="link">
-              <img src="./images/library.png" alt="" />
-              <h2>Library</h2>
-            </div>
-          </div>
-          <div class="pro">
-            <h2>Join pro for free games.</h2>
-            <img src="./images/controller.png" alt="" />
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glass Effect</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- CDN CSS link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+</head>
+<body>
+
+    <!-- header section start -->
+    <header>
+        <div class="user">
+            <img src="pictures/sa.jpg" >
+            <h3 class="name">Aroniaina Lalaharisoa</h3>
+            <p class="post">Developper & Graphist</p>
         </div>
-        <div class="games">
-          <div class="status">
-            <h1>Active Games</h1>
-            <input type="text" />
-          </div>
-          <div class="cards">
-            <div class="card">
-              <img src="./images/assassins.png" alt="" />
-              <div class="card-info">
-                <h2>Assassins Creed Valhalla</h2>
-                <p>PS5 Version</p>
-                <div class="progress"></div>
-              </div>
-              <h2 class="percentage">60%</h2>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#home">home</a></li>
+                <li><a href="#about">about</a></li>
+                <li><a href="#service">service</a></li>
+                <li><a href="#education">education</a></li>
+                <li><a href="#contact">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- header section end -->
+
+    <!-- content section start -->
+    <div class="container">
+
+        <section class="home" id="home">
+
+            <h3>hi there...</h3>
+            <h3 class="name">my name is <span>Aroniaina Lalaharisoa</span></h3>
+            <h3 class="post">i am <span class="typing-text">C# developper</span></h3>
+
+            <a href="#"><button class="btn">Hire me</button></a>
+
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-github"></a>
+                <a href="#" class="fab fa-linkedin"></a>
             </div>
-            <div class="card">
-              <img src="./images/sackboy.png" alt="" />
-              <div class="card-info">
-                <h2>Sackboy A Great Advanture</h2>
-                <p>PS5 Version</p>
-                <div class="progress"></div>
-              </div>
-              <h2 class="percentage">60%</h2>
-            </div>
-            <div class="card">
-              <img src="./images/spiderman.png" alt="" />
-              <div class="card-info">
-                <h2>Spiderman Miles Morales</h2>
-                <p>PS5 Version</p>
-                <div class="progress"></div>
-              </div>
-              <h2 class="percentage">60%</h2>
-            </div>
-          </div>
-        </div>
-      </section>
-    </main>
-    <div class="circle1"></div>
-    <div class="circle2"></div>
-  </body>
+
+        </section>
+
+    </div>
+    <!-- content section end -->
+
+    <!-- CDN JS link -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- JS file -->
+    <script src="js/index.js"></script>
+
+</body>
 </html>
