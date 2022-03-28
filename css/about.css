@@ -1,0 +1,103 @@
+.about{
+    min-height: 100%;
+}
+
+.about .content h3{
+    font-size: 2.5rem;
+    color: #eee;
+}
+
+.about .content h3 span{
+    color: #fff;
+}
+
+.about .content p{
+    font-size: 1.5rem;
+    color: #eee;
+    padding: .5rem 0;
+}
+
+.about .skills{
+    padding: 2rem 0;
+}
+
+.about .skills .progress{
+    margin: 1rem 0;
+    padding: 1rem 0;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+    background: rgba(255, 255, 255, .2);
+    border-radius: 1rem;
+}
+
+.about .skills .progress h3{
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.75rem;
+    color: #fff;
+}
+
+.about .skills .progress .bar{
+    position: relative;
+    width: 100%;
+    height: .3rem;
+    margin: 1rem 0;
+    background: #555;
+}
+
+.about .skills .progress .bar span{
+    position: absolute;
+    top: 0; left: 0;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+}
+
+.about .skills .progress:nth-child(1) .bar span{
+    width: 80%;
+    animation: html 7s infinite ;
+}
+.about .skills .progress:nth-child(2) .bar span{
+    animation: cs 7s infinite;
+    width: 70%;
+}
+.about .skills .progress:nth-child(3) .bar span{
+    animation: ad 7s infinite;
+    width: 75%;
+}
+.about .skills .progress:nth-child(4) .bar span{
+    animation: ph 7s infinite;
+    width: 90%;
+}
+
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 80%;
+    } 
+}
+@keyframes cs{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    } 
+}
+@keyframes ad{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 75%;
+    } 
+}
+@keyframes ph{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    } 
+}

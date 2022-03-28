@@ -1,0 +1,31 @@
+.service{
+    min-height: 100%;
+}
+
+.service .box-container{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service .box-container .box{
+    margin:1rem;
+    padding:1rem;
+    border-radius: 1rem;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.2);
+    background: rgba(255,255,255,.2);
+    text-align: center;
+    width:32rem;
+}
+
+.service .box-container .box i{
+    color:#fff;
+    font-size: 4.5rem;
+    padding:1rem 0;
+}
+
+.service .box-container .box p{
+    color:#eee;
+    font-size: 1.3rem;
+    padding:.5rem 5rem;
+}
